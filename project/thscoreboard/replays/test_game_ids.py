@@ -19,7 +19,7 @@ class GameIDsTestCase(test.SimpleTestCase):
                 game_id=game_ids.GameIDs.TH06, name_length=game_ids.NameLength.FULL
             )
 
-        self.assertEqual("th06", short)
+        self.assertEqual("EoSD", short)
         self.assertEqual("Embodiment of Scarlet Devil", standard)
         self.assertEqual("東方紅魔郷 - Embodiment of Scarlet Devil", full)
 
